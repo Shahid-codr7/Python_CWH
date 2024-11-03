@@ -1,0 +1,1 @@
+Dictionary has a key-value pair. It can be any object like string, int as well as tuple, list, dictionary as a value in it. Key must be unique and immutable (e.g., strings, numbers, tuples)
