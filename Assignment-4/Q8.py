@@ -1,7 +1,6 @@
-sent=input("Enter sentence: ")
-s=sent.lower()
-for vowel in s:
-    if(vowel=='a' or vowel=="e" or vowel=="o" or vowel=="i" or vowel=="u"):
-        l=sent.split(vowel)
+word=input("Enter word: ")
+v='aeiouAEIOU'
+for i in word:
+    if i in v:
+        print(word.split(i))
         break
-print(l)
