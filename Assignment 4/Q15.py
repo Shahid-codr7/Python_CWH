@@ -1,6 +1,5 @@
 word=input('Enter: ')
-word=word.lower()
-vowel=['a','e','i','o','u']
+vowel='aeiouAEIOU'
 if(word[0] in vowel):
     word+='way'
 else:
@@ -8,4 +7,4 @@ else:
         if(word[i] not in vowel):
             word=word[i+1:]+word[i]+'ay'
             break
-print(word)
+print(word.lower())

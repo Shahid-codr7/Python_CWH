@@ -4,8 +4,6 @@ matrix=[[random.randint(0,1) for j in range(cols)]for  i in range(rows)]
 for i in range(len(matrix)):
     print(matrix[i])
 
-c1=0
-c2=0
 sr=0
 sc=0
 maxr=-sys.maxsize-1

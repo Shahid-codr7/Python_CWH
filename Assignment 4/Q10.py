@@ -1,6 +1,6 @@
 sent=input("Enter string: ")
-x=input("Enter char: ")
-# s=''
+x=sent[0]
+s=sent[0]+sent[1:].replace(sent[0],"$")
 # c=0
 # for ch in sent:
 #     if ch == x:
@@ -11,7 +11,5 @@ x=input("Enter char: ")
 #         c+=1
 #     else:
 #         s+=ch
-# print(s)
-ind=sent.find(x)
-s=sent.replace(x,"$")
-s[ind]=print(s)
+
+print(s)
